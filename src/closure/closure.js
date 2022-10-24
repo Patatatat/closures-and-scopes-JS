@@ -6,3 +6,7 @@ function greeting(){
   }
   return displayUserName;
 }
+
+const g = greeting();
+console.log(g);
+console.log(g());
